@@ -23,6 +23,10 @@ HEREDOC
 # and double quotes is that they don't 
 # support variable interpolation
 
+a = 47
+"This will support interpolation of a: #{a}"
+'This will not... #{a}'
+
 # Symbol
 # Symbols are like immutable strings
 # prefixed by a colon
